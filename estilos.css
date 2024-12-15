@@ -1,0 +1,50 @@
+*{
+    margin: 0;}
+body{
+    font-family:Arial;
+    background-color: #E3CD9B;
+}
+h1{
+    font-family: 'Times New Roman';
+}
+p{
+    font-size:20px;
+    font-family: 'Time News Roman';
+    padding: 3px;
+    margin: 10px;
+}
+img{
+    margin: 5px 15px;
+    
+}
+a{
+    font-size: 1.4em;
+}
+a:hover{
+    color:#F24464;
+}
+.menu{
+    background-color: #98BA5C;
+    margin-bottom: 2px;
+    padding: 10px 5px;
+}
+.direita{
+   float:right;
+}
+.esquerda{
+    float:left;
+}
+.logo{
+    margin-right: 30px;
+
+}
+.link{
+    margin: 15px;
+    background-color:#7B9E51;
+}
+#h1{
+    background-color: #F29727;
+    border-radius: 25px;
+    width: 50%;
+    padding: 4px;
+}
