@@ -7,21 +7,36 @@ body{
 h1{
     font-family: 'Times New Roman';
 }
+h2{
+    border-radius: 20px;
+}
 p{
     font-size:20px;
     font-family: 'Time News Roman';
     padding: 3px;
-    margin: 10px;
+
 }
 img{
-    margin: 5px 15px;
-    
+    margin: 5px 10px;
+  
+}
+ul{
+    font-size: 18px;
 }
 a{
     font-size: 1.4em;
 }
 a:hover{
     color:#F24464;
+}
+.cor_verde_h2{
+    background-color:#7B9E51;
+    width:560px;
+    font-family: 'Times New Roman';
+    margin: 30px 30px;
+}
+.sem_margin{
+    margin: 0px;
 }
 .menu{
     background-color: #98BA5C;
@@ -35,16 +50,117 @@ a:hover{
     float:left;
 }
 .logo{
-    margin-right: 30px;
+    margin-top: 20px;
 
 }
 .link{
-    margin: 15px;
+    margin: 25px;
     background-color:#7B9E51;
+    border-radius: 15px;
+    
+}
+.sobre_o_tema{
+    margin: 5px 15px 0px 0px;
+}
+.margin_sobre_o_tema{
+    margin-top: 15px;
+}
+.cards{
+    background-color: #BF925D;
+    border-radius: 5px ;
+    width: 350px;
+    height: 520px;
+    margin-left: 90px;
+    margin-top: 15px;
+    display:inline-block;
+    padding: 3px;
+}
+.img_cards{
+    border-radius: 20px;
+}
+.texto_ler{
+    padding: 9px;
+}
+.receitas{
+    margin: 0px 100px 20px 90px;
+    padding: 2px;
+    
+}
+.display_block{
+    display: block;
+}
+.fundo_receitas{
+    background-color: #BF925D;
+border-radius: 20px;;
+}
+#titulo_receitas1{
+    margin: 85px 0px 25px 30px;
+    background-color: #F2B544;
+    width: 350px;
+}
+#titulo_receitas2{
+    margin-top: 86px;
+    background-color: #8DAF57;
+}
+#titulo_receitas3{
+    margin: 180px 0px 0px 58px;
+    background-color: #94BDF2;
+    
+}
+.subtitulos_receitas{
+    margin: 30px 0px 15px 35px;
+}
+.alinhar{
+    text-align: center;
 }
 #h1{
     background-color: #F29727;
     border-radius: 25px;
     width: 50%;
     padding: 4px;
+}
+#h2{
+    margin-top: 190px;
+    text-align: center;
+    
+}
+#link{
+    font-size: 20px;
+}
+#introducao_solucao{
+    margin: 40px 0px 0px 25px;
+    background-color: #BF925D;
+    width: 460px;
+    border-radius: 10px;
+}
+#titulo_ultima_parte{
+    margin-top: 40px;   
+}
+#propaganda{
+    border-radius: 50px;
+    background-color:#7B9E51;
+    width: 550px;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+#infos{
+    border-radius: 50px;
+    background-color: #7B9E51;
+    width: 440px ;
+    height: 600px ;
+    font-size: 20px;
+    margin-right: 90px;
+    padding: 10px;
+    margin-left: 100px;
+}
+#rodape{
+    background-color: #BF925D;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 1500px
+}
+#rodape_tex{
+    margin-left: 50px;
 }
